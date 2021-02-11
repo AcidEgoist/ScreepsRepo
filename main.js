@@ -12,7 +12,7 @@ module.exports.loop = function () {
   console.log('Upgraders: ' + upgraders.length);
 
   //autospawn creeps with roles
-  if(harvesters.length < 2) {
+  if(harvesters.length < 1) {
     //name of creep
       var newName = 'Harvester' + Game.time;
       //spawn alert
